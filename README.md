@@ -11,6 +11,6 @@ pip install modputs==0.0.2.
 from modputs import INPUT, READ
 INPUT("",1, 1, NPRINT=True)
 READ()
-if READ.userinput == 'test':\n
+if READ.userinput == 'test':
     print('Test complete!')
 ```
